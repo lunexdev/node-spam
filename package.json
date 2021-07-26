@@ -1,0 +1,23 @@
+{
+  "name": "node-spammer",
+  "version": "1.0.0",
+  "description": "a simple spam module that requests a link",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "spam",
+    "request",
+    "spammer"
+  ],
+  "author": "lunex",
+  "license": "MIT",
+  "dependencies": {
+    "githubinator": "0.0.2"
+  }
+}
