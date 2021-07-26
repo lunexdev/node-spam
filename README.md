@@ -5,7 +5,7 @@
 # Use
 
 ```js
-const spammer = require("node-spammer")
+const spammer = require("node-spam")
 
 spammer.on("spam" , data => {
 console.log(`${data.number} requests sent to ${data.link}`)
