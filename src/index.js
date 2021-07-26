@@ -23,7 +23,10 @@ start(link , number){
     if(typeof number !== "number") {
         return this.emit("error" , {reason:"Request Value to be Discarded Must be Number" , code:404})
     }
-    
+
+    if(number >== 1000){
+        throw new TypeError("You can't send more than 1000 requests, it can hurt your project.")
+   } 
     for(var i = 0 ; i < number ; i++) {
         fetch(link)}
         this.emit("spam" , {link:link , number:number})
