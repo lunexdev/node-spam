@@ -30,3 +30,4 @@ spammer.start("link" , number)
 |-|-|-|-|
 |spam|data|data.link|data.number|
 |error|data|data.reason|data.code|
+
