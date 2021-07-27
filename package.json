@@ -1,6 +1,6 @@
 {
-  "name": "node-spammer",
-  "version": "1.0.0",
+  "name": "node-spam",
+  "version": "1.2.0",
   "description": "a simple spam module that requests a link",
   "main": "main.js",
   "directories": {
@@ -16,5 +16,16 @@
     "spammer"
   ],
   "author": "lunex",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunexdev/node-spam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lunexdev/node-spam/issues"
+  },
+  "homepage": "https://github.com/lunexdev/node-spam#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
