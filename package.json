@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/lunexdev/node-spam/issues"
   },
-  "homepage": "https://github.com/lunexdev/node-spam#readme",
+  "homepage": "https://github.com/lunexdev/node-spam",
   "dependencies": {
     "node-fetch": "^2.6.1"
   }
