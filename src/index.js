@@ -7,6 +7,7 @@ constructor(){
     super()
 }
 
+
 start(link , number){
     if(!link) {
         return this.emit("error" , {reason:"Link value not entered" , code:404})
@@ -23,7 +24,9 @@ start(link , number){
     if(typeof number !== "number") {
         return this.emit("error" , {reason:"Request Value to be Discarded Must be Number" , code:404})
     }
-    
+
+    this.emit("ready")
+
     for(var i = 0 ; i < number ; i++) {
         fetch(link)}
         this.emit("spam" , {link:link , number:number})
@@ -31,8 +34,8 @@ start(link , number){
 
  get info(){
      return {
-         github: "https://github.com/lunexdev/node-spammer",
-         npm: "https://npmjs.org/node-spammer",
+         github: "https://github.com/lunexdev/node-spam",
+         npm: "https://npmjs.org/node-spam",
     }
   }
 }
